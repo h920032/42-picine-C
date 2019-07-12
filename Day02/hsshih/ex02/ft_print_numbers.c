@@ -6,17 +6,18 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/10 16:49:23 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/11 10:51:49 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/11 14:19:18 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void 	ft_putchar(char c);
+void	ft_putchar(char c);
 
 void	ft_print_numbers(void)
 {
 	char	i;
+
 	i = 48;
-	while(i <= 57)
+	while (i <= 57)
 	{
 		ft_putchar(i);
 		i++;

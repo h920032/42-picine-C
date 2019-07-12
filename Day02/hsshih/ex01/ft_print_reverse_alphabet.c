@@ -6,17 +6,18 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/10 16:02:12 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/11 10:51:25 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/11 14:03:01 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void 	ft_putchar(char c);
+void	ft_putchar(char c);
 
 void	ft_print_reverse_alphabet(void)
 {
 	char	i;
+
 	i = 122;
-	while(i >= 97)
+	while (i >= 97)
 	{
 		ft_putchar(i);
 		i--;
