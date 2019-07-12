@@ -43,4 +43,16 @@ Exercise 05 : ft_putstr
 Exercise 06 : ft_strlen  
 Exercise 07 : ft_strrev  
 Exercise 08 : ft_atoi  
-Exercise 09 : ft_sort_integer_table  
+Exercise 09 : ft_sort_integer_table
+
+## Day 4
+Exercise 00 : ft_iterative_factorial  
+Exercise 01 : ft_recursive_factorial  
+Exercise 02 : ft_iterative_power  
+Exercise 03 : ft_recursive_power  
+Exercise 04 : ft_fibonacci  
+Exercise 05 : ft_sqrt  
+Exercise 06 : ft_is_prime  
+Exercise 07 : ft_find_next_prime  
+Exercise 08 : The Eight Queens  
+Exercise 09 : The Eight Queens 2  
