@@ -6,11 +6,11 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/11 20:30:11 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/11 21:28:56 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/12 10:20:52 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ultimate_div_mod(int	*a, int	*b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	div;
 	int	mod;

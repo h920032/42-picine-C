@@ -6,16 +6,16 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/11 20:58:26 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/11 21:26:29 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/12 10:45:33 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strrev(char	*str)
+char	*ft_strrev(char *str)
 {
 	char	temp;
 	char	temp2;
-	int	ptr_count;
-	int	count;
+	int		ptr_count;
+	int		count;
 
 	ptr_count = 0;
 	temp = *(str + ptr_count);

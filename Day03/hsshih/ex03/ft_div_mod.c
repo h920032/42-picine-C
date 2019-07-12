@@ -6,11 +6,11 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/11 20:23:45 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/11 20:26:35 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/12 09:32:24 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_div_mod(int	a, int b, int	*div, int	*mod)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
 	*div = a / b;
 	*mod = a % b;

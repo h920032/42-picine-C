@@ -6,14 +6,14 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/11 21:29:25 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/11 21:57:31 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/12 11:08:37 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char	*str)
+int		ft_strlen(char *str)
 {
 	char	temp;
-	int	ptr_count;
+	int		ptr_count;
 
 	ptr_count = 0;
 	temp = *(str + ptr_count);
@@ -25,7 +25,7 @@ int	ft_strlen(char	*str)
 	return (ptr_count);
 }
 
-void	ft_is_neg(int	*var, char	*str)
+void	ft_is_neg(int *var, char *str)
 {
 	if (*(str) == '-')
 	{
@@ -38,17 +38,17 @@ void	ft_is_neg(int	*var, char	*str)
 	}
 }
 
-int	ft_atoi(char	*str)
+int		ft_atoi(char *str)
 {
 	char	temp;
-	int var[5];
-	
+	int		var[5];
+
 	ft_is_neg(var, str);
 	var[0] = ft_strlen(str);
 	var[1] = 1;
 	var[2] = 0;
 	var[0]--;
-	while(var[0] >= var[4])
+	while (var[0] >= var[4])
 	{
 		temp = *(str + var[0]);
 		var[2] = var[2] + var[1] * (temp - 48);
