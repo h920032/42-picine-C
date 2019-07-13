@@ -36,5 +36,16 @@ int	ft_is_prime(int nb)
 
 int	ft_find_next_prime(int nb)
 {
-
+	if (ft_is_prime(nb))
+	{
+		return nb;
+	}
+	else if (nb % 2 == 0 || nb == 1)
+	{
+		return (ft_find_next_prime(nb + 1));
+	}
+	else
+	{
+		return (ft_find_next_prime(nb + 2));
+	}
 }
