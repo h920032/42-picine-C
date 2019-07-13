@@ -56,3 +56,13 @@ Exercise 06 : ft_is_prime
 Exercise 07 : ft_find_next_prime  
 Exercise 08 : The Eight Queens  
 Exercise 09 : The Eight Queens 2  
+
+## Rush 0
+Rush 00  
+Rush 01  
+Rush 02  
+Rush 03  
+Rush 04  
+
+## Sastantua
+Subject
