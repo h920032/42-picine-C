@@ -1,22 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_prime.c                                      :+:      :+:    :+:   */
+/*   ft_eight_queens_puzzle_2.c                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/12 16:12:47 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/13 10:47:08 by hsshih           ###   ########.fr       */
+/*   Created: 2019/07/13 10:51:30 by hsshih            #+#    #+#             */
+/*   Updated: 2019/07/13 12:29:33 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_array_copy(int origin[8][8], int copy[8][8], int n)
+void	ft_putchar(char c);
+
+void	ft_array_copy(int origin[9][8], int copy[9][8], int n)
 {
 	int count_one;
 	int	count_two;
 
 	count_one = 0;
-	while (count_one < n)
+	while (count_one < n + 1)
 	{
 		count_two = 0;
 		while (count_two < n)
@@ -28,7 +30,7 @@ void	ft_array_copy(int origin[8][8], int copy[8][8], int n)
 	}
 }
 
-void	ft_write_in(int place[8][8], int l, int n)
+void	ft_write_in(int place[9][8], int l, int n)
 {
 	if (l <= 7 && n <= 7 && l >= 0 && n >= 0)
 	{
@@ -36,7 +38,7 @@ void	ft_write_in(int place[8][8], int l, int n)
 	}
 }
 
-void	ft_putchess(int place[8][8], int l, int n)
+void	ft_putchess(int place[9][8], int l, int n)
 {
 	int	count;
 
@@ -55,38 +57,38 @@ void	ft_putchess(int place[8][8], int l, int n)
 	}
 }
 
-int		ft_eight_queens_recursive(int place_origin[8][8], int n)
+void	ft_eight_queens_recursive(int place_origin[8][8], int n)
 {
-	int place[8][8];
-	int new[8][8];
+	int place[9][8];
+	int new[9][8];
 	int	count;
 	int	result;
 
 	result = 0;
-	count = 0;
+	count = -1;
 	ft_array_copy(place_origin, place, 8);
 	if (n == 7)
-		return (1);
-	else
 	{
-		while (count < 8)
-		{
+		while (count++ < 7)
+			ft_putchar(place[8][count] + 48);
+		count = -1;
+		ft_putchar('\n');
+	}
+	else
+		while (count++ < 7)
 			if (place[n + 1][count] == 0)
 			{
 				ft_array_copy(place, new, 8);
 				ft_putchess(new, n + 1, count);
-				result = result + ft_eight_queens_recursive(new, n + 1);
+				new[8][n + 1] = count + 1;
+				ft_eight_queens_recursive(new, n + 1);
 			}
-			count++;
-		}
-	}
-	return (result);
 }
 
-int		ft_eight_queens_puzzle(void)
+void	ft_eight_queens_puzzle_2(void)
 {
-	int	place[8][8];
-	int new[8][8];
+	int	place[9][8];
+	int new[9][8];
 	int count;
 	int result;
 	int	count_two;
@@ -104,8 +106,8 @@ int		ft_eight_queens_puzzle(void)
 	{
 		ft_array_copy(place, new, 8);
 		ft_putchess(new, 0, count);
-		result = result + ft_eight_queens_recursive(new, 0);
+		new[8][0] = count + 1;
+		ft_eight_queens_recursive(new, 0);
 		count++;
 	}
-	return (result);
 }

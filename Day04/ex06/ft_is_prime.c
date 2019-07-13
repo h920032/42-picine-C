@@ -6,17 +6,17 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/12 16:12:47 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/12 16:27:42 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/13 10:49:07 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_is_prime(int nb)
 {
 	int	count;
-	
+
 	if (nb == 2)
 	{
-		return(1);
+		return (1);
 	}
 	else if (nb <= 1)
 	{
@@ -33,4 +33,3 @@ int	ft_is_prime(int nb)
 	}
 	return (1);
 }
-
