@@ -66,3 +66,29 @@ Rush 04
 
 ## Sastantua
 Subject
+
+## Day 5
+Exercise 00 : ft_putstr  
+Exercise 01 : ft_putnbr  
+Exercise 02 : ft_atoi  
+Exercise 03 : ft_strcpy  
+Exercise 04 : ft_strncpy  
+Exercise 05 : ft_strstr  
+Exercise 06 : ft_strcmp  
+Exercise 07 : ft_strncmp  
+Exercise 08 : ft_strupcase  
+Exercise 09 : ft_strlowcase  
+Exercise 10 : ft_strcapitalize  
+Exercise 11 : ft_str_is_alpha  
+Exercise 12 : ft_str_is_numeric  
+Exercise 13 : ft_str_is_lowercase  
+Exercise 14 : ft_str_is_uppercase  
+Exercise 15 : ft_str_is_printable  
+Exercise 16 : ft_strcat  
+Exercise 17 : ft_strncat  
+Exercise 18 : ft_strlcat  
+Exercise 19 : ft_strlcpy  
+Exercise 20 : ft_putnbr_base  
+Exercise 21 : ft_atoi_base  
+Exercise 22 : ft_putstr_non_printable  
+Exercise 23 : ft_print_memory  
