@@ -93,9 +93,29 @@ Exercise 21 : ft_atoi_base
 Exercise 22 : ft_putstr_non_printable  
 Exercise 23 : ft_print_memory  
 
-## Day06
+## Day 6
 Exercise 00 : libft  
 Exercise 01 : ft_print_program_name  
 Exercise 02 : ft_print_params  
 Exercise 03 : ft_rev_params  
 Exercise 04 : ft_sort_params  
+
+## Day 7
+
+## Day 8
+
+## Day 9
+
+## Rush 1
+
+## Match-N-Match
+
+## Day 10
+
+## Day 11
+
+## Day 12
+
+## Day 13
+
+## Rush 2
