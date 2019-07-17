@@ -6,7 +6,7 @@
 /*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/11 21:29:25 by hsshih            #+#    #+#             */
-/*   Updated: 2019/07/12 11:08:37 by hsshih           ###   ########.fr       */
+/*   Updated: 2019/07/15 11:17:48 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@ int		ft_strlen(char *str)
 
 	ptr_count = 0;
 	temp = *(str + ptr_count);
-	while (temp != '\0')
+	while ((temp != '\0' && temp <= '9' && temp >= '0') || temp == '\n' ||
+			temp == '\t' || temp == '\v' || temp == ' ' || temp == '\f' ||
+			temp == '\r' || temp == '-' || temp == '+')
 	{
 		ptr_count++;
 		temp = *(str + ptr_count);
@@ -34,6 +36,7 @@ void	ft_is_neg(int *var, char *str)
 	}
 	else
 	{
+		var[3] = 0;
 		var[4] = 0;
 	}
 }
@@ -48,7 +51,7 @@ int		ft_atoi(char *str)
 	var[1] = 1;
 	var[2] = 0;
 	var[0]--;
-	while (var[0] >= var[4])
+	while (var[0] >= var[4] && *(str + var[0]) <= '9' && *(str + var[0]) >= '0')
 	{
 		temp = *(str + var[0]);
 		var[2] = var[2] + var[1] * (temp - 48);

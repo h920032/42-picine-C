@@ -22,7 +22,7 @@ int	ft_fibonacci(int index)
 	}
 	else if (index < 0)
 	{
-		return (0);
+		return (-1);
 	}
 	else
 	{
