@@ -6,7 +6,7 @@
 /*   By: hugoshih <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/17 01:29:07 by hugoshih          #+#    #+#             */
-/*   Updated: 2019/07/17 01:55:56 by hugoshih         ###   ########.fr       */
+/*   Updated: 2019/07/17 02:01:13 by hugoshih         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-int	ft_strcmp(char *s1, char *s2)
+int		ft_strcmp(char *s1, char *s2)
 {
 	int	count;
 
