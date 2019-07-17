@@ -5,18 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: hugoshih <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/15 14:53:44 by hugoshih          #+#    #+#             */
-/*   Updated: 2019/07/15 14:54:02 by hugoshih         ###   ########.fr       */
+/*   Created: 2019/07/17 02:12:10 by hugoshih          #+#    #+#             */
+/*   Updated: 2019/07/17 02:13:24 by hugoshih         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 int	ft_putchar(char c);
 
 void	ft_print_line(int x)
 {
 	if (x == 1)
+	{
 		ft_putchar('o');
+	}
 	else if (x > 1)
 	{
 		ft_putchar('o');
@@ -30,12 +31,16 @@ void	ft_print_line(int x)
 void	ft_print_row(x)
 {
 	if (x == 1)
+	{
 		ft_putchar('|');
+	}
 	else if (x > 1)
 	{
 		ft_putchar('|');
 		while (x-- > 2)
+		{
 			ft_putchar(' ');
+		}
 		ft_putchar('|');
 	}
 	ft_putchar('\n');
