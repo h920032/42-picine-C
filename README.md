@@ -101,6 +101,14 @@ Exercise 03 : ft_rev_params
 Exercise 04 : ft_sort_params  
 
 ## Day 7
+Exercise 00 : ft_strdup  
+Exercise 01 : ft_range  
+Exercise 02 : ft_ultimate_range  
+Exercise 03 : ft_concat_params  
+Exercise 04 : ft_split_whitespaces  
+Exercise 05 : ft_print_words_tables  
+Exercise 06 : ft_convert_base  
+Exercise 07 : ft_split  
 
 ## Day 8
 
