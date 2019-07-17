@@ -92,3 +92,10 @@ Exercise 20 : ft_putnbr_base
 Exercise 21 : ft_atoi_base  
 Exercise 22 : ft_putstr_non_printable  
 Exercise 23 : ft_print_memory  
+
+## Day06
+Exercise 00 : libft  
+Exercise 01 : ft_print_program_name  
+Exercise 02 : ft_print_params  
+Exercise 03 : ft_rev_params  
+Exercise 04 : ft_sort_params  
