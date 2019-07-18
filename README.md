@@ -111,6 +111,13 @@ Exercise 06 : ft_convert_base
 Exercise 07 : ft_split  
 
 ## Day 8
+Exercise 00 : ft_split_whitespaces  
+Exercise 01 : ft.h  
+Exercise 02 : ft_boolean.h  
+Exercise 03 : ft_abs.h  
+Exercise 04 : ft_point.h  
+Exercise 05 : ft_param_to_tab  
+Exercise 06 : ft_show_tab  
 
 ## Day 9
 
