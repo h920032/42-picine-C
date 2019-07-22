@@ -125,8 +125,8 @@ Exercise 06 : ft_show_tab
 subject
 
 ## Match-N-Match
-match
-nmatch
+match  
+nmatch  
 
 ## Day 10
 
