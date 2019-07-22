@@ -122,8 +122,11 @@ Exercise 06 : ft_show_tab
 ## Day 9
 
 ## Rush 1
+subject
 
 ## Match-N-Match
+match
+nmatch
 
 ## Day 10
 
