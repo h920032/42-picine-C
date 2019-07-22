@@ -120,6 +120,30 @@ Exercise 05 : ft_param_to_tab
 Exercise 06 : ft_show_tab  
 
 ## Day 9
+Exercise 00 : ft_generic.c  
+Exercise 01 : ft_takes_place.c  
+Exercise 02 : find_nicolas_bauer.sh  
+Exercise 03 : defuse.sh  
+Exercise 04 : ft_rot42.c  
+Exercise 05 : ft_antidote.c  
+Exercise 06 : ft_destroy.c  
+Exercise 07 : ft_collatz_conjecture.c  
+Exercise 08 : ft_spy.c  
+Exercise 09 : where_am_i.sh  
+Exercise 10 : ft_scrambler.c  
+Exercise 11 : ft_perso.h  
+Exercise 12 : ft_door  
+Exercise 13 : ft_compact.c  
+Exercise 14 : ft_decrypt.c  
+Exercise 15 : ft_fight.c  
+Exercise 16 : ft_active_bits.c  
+Exercise 17 : ft_max.c  
+Exercise 18 : ft_join.c  
+Exercise 19 : ft_unmatch.c  
+Exercise 20 : restroom.sh  
+Exercise 21 : ft_ultimate_fight  
+Exercise 22 : save_president.sh  
+Exercise 23 : ft_generic.c  
 
 ## Rush 1
 subject
