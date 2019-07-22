@@ -153,6 +153,16 @@ match
 nmatch  
 
 ## Day 10
+Exercise 00 : Makefile  
+Exercise 01 : ft_foreach  
+Exercise 02 : ft_map  
+Exercise 03 : ft_any  
+Exercise 04 : ft_count_if  
+Exercise 05 : ft_is_sort  
+Exercise 06 : do-op  
+Exercise 07 : ft_sort_wordtab  
+Exercise 08 : ft_advanced_sort_wordtab  
+Exercise 09 : ft_advanced_do-op  
 
 ## Day 11
 
