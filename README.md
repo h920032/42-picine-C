@@ -165,6 +165,24 @@ Exercise 08 : ft_advanced_sort_wordtab
 Exercise 09 : ft_advanced_do-op  
 
 ## Day 11
+Exercice 00 : ft_create_elem  
+Exercice 01 : ft_list_push_back  
+Exercice 02 : ft_list_push_front  
+Exercice 03 : ft_list_size  
+Exercice 04 : ft_list_last  
+Exercice 05 : ft_list_push_params  
+Exercice 06 : ft_list_clear  
+Exercice 07 : ft_list_at  
+Exercice 08 : ft_list_reverse  
+Exercice 09 : ft_list_foreach  
+Exercice 10 : ft_list_foreach_if  
+Exercice 11 : ft_list_find  
+Exercice 12 : ft_list_remove_if  
+Exercice 13 : ft_list_merge  
+Exercice 14 : ft_list_sort  
+Exercice 15 : ft_list_reverse_fun  
+Exercice 16 : ft_sorted_list_insert  
+Exercice 17 : ft_sorted_list_merge  
 
 ## Day 12
 
