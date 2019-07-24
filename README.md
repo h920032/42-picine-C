@@ -185,6 +185,11 @@ Exercice 16 : ft_sorted_list_insert
 Exercice 17 : ft_sorted_list_merge  
 
 ## Day 12
+Exercise 00 : display_file  
+Exercise 01 : cat  
+Exercise 02 : tail  
+Exercise 03 : hexdump  
+Exercise 04 : last  
 
 ## Day 13
 
