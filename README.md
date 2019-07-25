@@ -192,6 +192,17 @@ Exercise 03 : hexdump
 Exercise 04 : last  
 
 ## Day 13
+Exercise 00 : btree_create_node  
+Exercise 01 : btree_apply_prefix  
+Exercise 02 : btree_apply_infix  
+Exercise 03 : btree_apply_suffix  
+Exercise 04 : btree_insert_data  
+Exercise 05 : btree_search_item  
+Exercise 06 : btree_level_count  
+Exercise 07 : btree_apply_by_level  
+Provisional instructions  
+Exercise 08: rb_insert  
+Exercise 09: rb_remove  
 
 ## Rush 2
 
