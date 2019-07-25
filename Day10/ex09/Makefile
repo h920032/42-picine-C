@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 all:
-	@gcc -o do-op do_op.c -I ft_header.h -I ft_opp.h -I ft_header_two.h
+	@gcc -o ft_advanced_do-op do_op.c -I ft_header.h -I ft_opp.h -I ft_header_two.h
 
 clean:
 	@rm -f do-op
