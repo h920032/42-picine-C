@@ -6,7 +6,7 @@
 /*   By: hugoshih <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/24 18:33:55 by hugoshih          #+#    #+#             */
-/*   Updated: 2019/07/24 21:21:16 by hugoshih         ###   ########.fr       */
+/*   Updated: 2019/07/25 17:06:16 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	int		fd;
 	int		re;

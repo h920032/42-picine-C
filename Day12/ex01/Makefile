@@ -6,12 +6,12 @@
 #    By: hugoshih <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/07/24 21:28:30 by hugoshih          #+#    #+#              #
-#    Updated: 2019/07/25 00:02:23 by hugoshih         ###   ########.fr        #
+#    Updated: 2019/07/25 16:24:17 by hsshih           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 all:
-	@gcc -o ft_cat main.c -I ft_header.h
+	@gcc -o ft_cat main.c ft_ft_all.c ft_ft_two.c
 
 clean:
 	@rm -f ft_cat

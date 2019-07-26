@@ -1,21 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_header.h                                        :+:      :+:    :+:   */
+/*   ft_create_elem.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hugoshih <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: hsshih <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/24 21:17:22 by hugoshih          #+#    #+#             */
-/*   Updated: 2019/07/24 22:29:37 by hugoshih         ###   ########.fr       */
+/*   Created: 2019/07/25 22:28:37 by hsshih            #+#    #+#             */
+/*   Updated: 2019/07/25 22:29:21 by hsshih           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_HEADER_H
-# define FT_HEADER_H
-# define BUF_SIZE 30
-# include <unistd.h>
-# include <sys/types.h>
-# include <sys/stat.h>
-# include <fcntl.h>
-#endif
+#include "ft_header.h"
 
+t_list	*ft_create_elem(char data)
+{
+	t_list	*output;
+
+	output = (t_list*)malloc(sizeof(*output) * 1);
+	output->next = NULL;
+	output->data = data;
+	return (output);
+}
