@@ -205,5 +205,12 @@ Exercise 08: rb_insert
 Exercise 09: rb_remove  
 
 ## Rush 2
+Subject  
+Bonus  
+Super Bonus  
+
+## Evalexpr
+Evalexpr
 
 ## BSQ
+BSQ
